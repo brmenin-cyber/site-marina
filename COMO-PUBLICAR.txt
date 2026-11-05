@@ -1,0 +1,29 @@
+SITE DA MARINA GASPARIM — COMO PUBLICAR
+=======================================
+
+Arquivos:
+  index.html            -> a página
+  imagens/logo-cor.png  -> logo colorida
+  imagens/simbolo.png   -> símbolo (ícone da aba do navegador)
+
+ANTES DE PUBLICAR: tudo que está entre [colchetes] no index.html precisa ser
+trocado pelas informações reais (textos, valores, endereço, depoimentos) e as
+caixas tracejadas pelas fotos reais. O WhatsApp já está configurado:
+(11) 97655-2050.
+
+1) GitHub
+   - Crie um repositório novo (ex.: site-marina).
+   - "Add file" > "Upload files" e envie index.html e a pasta imagens.
+
+2) Render
+   - New > Static Site > escolha o repositório.
+   - Build Command: deixe em branco.  Publish Directory: .   (um ponto)
+   - Create Static Site. Teste no link .onrender.com gerado.
+
+3) Domínio (Registro.br)
+   - Registre o domínio no CPF da Marina (ex.: marinagasparim.com.br).
+   - No Render: Settings > Custom Domains > adicione o domínio com e sem www.
+   - No Registro.br, crie os registros DNS que o Render mostrar.
+   - Em algumas horas o site abre no domínio, já com cadeado (HTTPS).
+
+Para atualizar depois: troque o arquivo no GitHub; o Render publica sozinho.
